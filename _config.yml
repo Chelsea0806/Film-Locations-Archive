@@ -18,25 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Chelsea
-email: hao.zeng@kcl.ac.uk
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chelsea is a student in Digital Asset and Media Management at King's College London.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://film-location-archive.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_path: https://twitter.com/ZZZChelsea0806
-instagram_path: https://www.instagram.com/che1seazz/
-faceboo_path: https://www.facebook.com/profile.php?id=100072196908403
-github_path: https://github.com/Chelsea0806
-
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-premalink: pretty
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
 sass:
   sass_dir: _sass
 # Exclude from processing.
